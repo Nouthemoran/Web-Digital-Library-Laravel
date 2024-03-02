@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Buku extends Model
+class Book extends Model
 {
     protected $primaryKey = 'BukuID'; // Menyesuaikan nama kolom primary key
 

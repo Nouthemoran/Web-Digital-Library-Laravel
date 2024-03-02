@@ -4,11 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Kategoribuku extends Model
+class Category extends Model
 {
-    protected $primaryKey = 'KategoriID'; // Menyesuaikan nama kolom primary key
-
-    protected $fillable = ['NamaKategori'];
+    protected $fillable = ['name'];
     
     public function books()
     {
